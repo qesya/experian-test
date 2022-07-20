@@ -1,0 +1,11 @@
+.input {
+  padding: 8px;
+  border-radius: 8px;
+  border-style: solid;
+	border-color: lightgray;
+  outline: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  -moz-appearance: none;
+}

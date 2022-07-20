@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border-width: 2px;
+  border-color: lightgray;
+  border-style: solid;
+}
+
+.content {
+  padding: 16px;
+}

@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  appearance: none;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 10px;
+  width: 10px;
+  cursor: pointer;
+  margin-right: 4px;
+  margin-top: 2px;
+  float: left;
+}
+
+.input:checked {
+  background-color: #17bfc8;
+  border: none;
+}

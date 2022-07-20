@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.input {
+  display: flex;
+  flex: 1;
+  border-radius: 8px;
+  appearance: none;
+  outline: none;
+  border: 3px lightgray solid;
+  padding: 4px 8px;
+}
