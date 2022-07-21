@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import ClipLoader from 'react-spinners/BeatLoader';
-import { WeatherForm, WeatherResult } from '@/components';
-import { Text } from '@/components/base';
+import { Text } from '@/components/atoms';
+import { WeatherForm } from '@/components/molecules';
+import { WeatherResult } from '@/components/organisms';
 import { GetCurrentWeatherResponse, getCurrentWeather } from '@/api/weather';
 import styles from './Home.module.css';
 
@@ -12,6 +13,7 @@ export function Home() {
 
   const fetchCurrentWeather = async (city: string) => {
     setIsLoading(true);
+    setError('');
     try {
       const response = await getCurrentWeather({ city });
       setResult(response);

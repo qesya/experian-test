@@ -6,6 +6,7 @@
   "singleQuote": true,
   "importOrder": [
     "react",
+    "^@/utils",
     "^@/types",
     "^@/components",
     "^@/api",
@@ -17,4 +18,3 @@
   "importOrderSortSpecifiers": true,
   "bracketSameLine": true
 }
-
